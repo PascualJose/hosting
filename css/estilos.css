@@ -1,0 +1,315 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+header{
+	width: 100%;                    /*Ancho del header*/
+	background: rgba(0,0,0,0.8); /*Transparencia con rgba, o su color noranl.*/
+	height: 70px;                  /*Largo del header, o sea para abajo*/
+	position: fixed;               /*Para dejarlo en posicion fija*/
+	z-index: 10;
+	
+}
+.ancho{
+	width: 80%;
+	height: 70px;
+	/*background: red;*/
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: rale;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: ipx;
+	font-family: rale;
+}
+nav ul li a:hover{
+	color: #A4A4A4;
+}
+@font-face{
+	font-family: rale;
+	src: url(fonts/Raleway-Regular.ttf);
+}
+
+.contenedor-columna{
+width: 100%;
+margin: auto;
+}
+
+.columnasx3{
+	width: 33.33%;
+	float: left;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	margin: auto;
+}
+h4{
+	margin-top: 15px;
+	font-size: 16px;
+}
+h5{
+	font-family: Lato, sans-serif;
+	line-height: 1.5px;
+	font-weight: auto;
+	padding: 10px 0;
+	font-size: 12px;
+}
+p{
+	color: #888;
+	font-family: Lato, sans-serif;
+	font-size: 15px;
+}
+
+/*Estilos para el slider*/
+#particles-js{
+    background:url(../img/s1.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+
+.ancho-letras{
+    top: 200px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.letras-slider{
+    width: 80%;
+    margin: auto;
+
+}
+
+.letras-slider h1{
+    color: #fff;
+    font-family: rale;
+    font-size: 70px;
+}
+
+.letras-slider p{
+    color: #fff;
+    font-family: rale;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+/*tres columnas*/
+
+@font-face{
+	font-family: Lato-Regular;
+	src: url(fonts/Lato-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h4, h5, h6 {
+    text-transform: uppercase;
+    color: #444;
+    font-family: rale;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 26px;
+    color: #333;
+}
+
+h3{
+    font-family: 'Lato-Regulas', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    font-weight: normal;
+    color: #777;
+}
+h4{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Lato-Regular', sans-serif;
+}
+h5{
+   font-family: 'Lato-Regular', sans-serif;
+   line-height: 1.5px;
+   font-weight: normal;
+   padding: 10px 0;
+   font-size: 12px;
+}
+p{
+   color: #888;
+   font-family: 'Lato-Regular', sans-serif;
+   font-size: 15px;
+}
+.wap{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.bienvenidos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contenedor-columna{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+    
+.columnasx3{
+    width: 33.333%;
+    float: left;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.columnasx3 img{
+    width: 100%;
+}
+
+
+.columnasx3 i{
+    float: left;
+    padding-right: 20px;
+    color: violet;    /*para cambiar el color. de los iconos*/
+}
+.columnasx3 h4{
+    padding-bottom: 20px;
+}
+.columnasx3 h5{
+    padding-bottom: 20px;
+}
+.columnasx3 p{
+    padding-bottom: 20px;
+}
+
+#play-descargar {
+    text-decoration: none;
+    float: center;
+    padding-right: 20px;
+    color: red;
+    
+
+}
+#play-descargar:hover{
+    color: #0B243B;
+}
+
+/*Estilos redes sociles*/
+.redes{
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+#facebook a{
+    background: #013ADF;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease-in-out;
+}
+#facebook a:hover{
+    background: #000000;
+    padding: 10px 40px;
+}
+
+#instagram a{
+    background: #DF0174;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease-in-out;
+}
+#instagram a:hover{
+    background: #000000;
+    padding: 10px 40px;
+}
+
+#twitter a{
+    background: #2ECCFA;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease-in-out;
+}
+#twitter a:hover{
+    background: #000000;
+    padding: 10px 40px;
+}
+
+#email a{
+    background: #FFBF00;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease-in-out;
+}
+#email a:hover{
+    background: #000000;
+    padding: 10px 40px;
+}
+
+#youtube a{
+    background: #FF0000;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease-in-out;
+}
+#youtube a:hover{
+    background: #000000;
+    padding: 10px 40px;
+
+}
+footer {
+    margin-top: 50px;
+    width: 100%;
+    clear: both;
+    background-color: rgb(8, 8, 8);
+    padding: 30px;
+    text-align: right;
+    color: white;
+  }
